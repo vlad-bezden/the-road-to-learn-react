@@ -22,10 +22,10 @@ module.exports = {
                 exclude: /node_modules/,
                 use: "babel-loader"
             }, {
-                test: /\.jsx?$/,
+                test:/\.css$/,
                 exclude: /node_modules/,
-                use: "babel-loader"
+                use: ['style-loader', 'css-loader']
             }
-        ]
+        ],
     }
 }
