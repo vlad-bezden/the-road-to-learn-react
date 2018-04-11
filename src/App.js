@@ -24,8 +24,6 @@ const smallColumn = {
 };
 
 class App extends Component {
-    _isMounted = false
-
     constructor(props) {
         super(props)
 
