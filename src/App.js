@@ -13,15 +13,15 @@ const PARAM_HPP = 'hitsPerPage='
 
 const largeColumn = {
     width: '40%',
-};
+}
 
 const midColumn = {
     width: '30%',
-};
+}
 
 const smallColumn = {
     width: '10%',
-};
+}
 
 class App extends Component {
     constructor(props) {
@@ -230,3 +230,9 @@ const Loading = () =>
 
 
 export default App
+
+export {
+    Button,
+    Search,
+    Table,
+}
