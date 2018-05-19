@@ -10,13 +10,16 @@
     "build": "webpack --mode development"
   },
   "jest": {
-    "transform": {".*": "<rootDir>/node_modules/jest-css-modules"}
+    "transform": {
+      ".*": "<rootDir>/node_modules/jest-css-modules"
+    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.18.0",
+    "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1"
   },
@@ -25,9 +28,17 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.10",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.8.2",
     "html-webpack-plugin": "^3.0.6",
     "jest": "^22.4.3",
     "jest-css-modules": "^1.1.0",
+    "react-addons-test-utils": "^15.6.2",
     "react-test-renderer": "^16.3.2",
     "style-loader": "^0.20.3",
     "webpack": "^4.1.1",

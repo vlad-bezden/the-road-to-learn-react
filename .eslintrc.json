@@ -1,0 +1,51 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "extends": "airbnb",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "plugins": [
+    "import"
+  ],
+  "rules": {
+    "no-console": 0,
+    "indent": [
+      2,
+      2
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js"
+        ]
+      }
+    ],
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    "react/no-did-mount-set-state": [
+      "warning",
+      "never"
+    ]
+  }
+}
